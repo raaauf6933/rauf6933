@@ -101,12 +101,14 @@ hr {
 }
 
 .section1 .section__title {
+  margin: 3rem;
   margin-bottom: 40px;
   font-size: 36px;
   line-height: 42px;
   font-family: Roboto Mono, monospace;
 }
 .section1 .section__description {
+  margin: 3rem;
   margin-bottom: 30px;
   font-size: 20px;
   color: #757575;
@@ -117,12 +119,14 @@ hr {
 }
 
 .section2 .section2__title {
+  margin: 3rem;
   margin-bottom: 40px;
   font-size: 36px;
   line-height: 42px;
   font-family: Roboto Mono, monospace;
 }
 .section2 .section2__description {
+  margin: 3rem;
   margin-bottom: 30px;
   font-size: 20px;
   color: #757575;
@@ -157,9 +161,16 @@ hr {
     padding-top: 25rem;
     padding-bottom: 50px;
   }
+  .section1 .section__title {
+    margin: 0rem;
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: Roboto Mono, monospace;
+  }
 
   .section1 .section__description {
-    margin-right: 5rem;
+    margin: 0rem;
     margin-bottom: 30px;
     font-size: 16px;
     color: #757575;
@@ -170,8 +181,15 @@ hr {
     padding-bottom: 50px;
   }
 
+  .section2 .section2__title {
+    margin: 0rem;
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: Roboto Mono, monospace;
+  }
   .section2 .section2__description {
-    margin-right: 5rem;
+    margin: 0rem;
     margin-bottom: 30px;
     font-size: 16px;
     color: #757575;
@@ -207,6 +225,16 @@ hr {
   padding-left: 30px;
   font-size: 15px;
 }
+
+.img-skill {
+  margin-right: 10px;
+  width: 4rem;
+}
+
+.img-badge {
+  width: 10rem;
+}
+
 @media only screen and (max-width: 600px) {
   .blockquote .school {
     padding-bottom: 1rem;
@@ -220,16 +248,13 @@ hr {
     padding-left: 8px;
     font-size: 13px;
   }
+
+  .img-badge {
+    width: 16rem;
+  }
 }
 
-.img-skill {
-  margin-right: 10px;
-  width: 4rem;
-}
 
-.img-badge {
-  width: 10rem;
-}
 
 .pricing .card {
   border: none;
@@ -290,7 +315,7 @@ hr {
 }
 
 .footer {
-  height: 32rem;
+  height: 40rem;
   background-image: linear-gradient(90deg, #bdc3c7, #2c3e50);
 }
 

@@ -32,7 +32,7 @@ RAAAUF_6933
                   <MDBNavLink to="#hello">Hi</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="#">Resume</MDBNavLink>
+                  <MDBNavLink to="#">About me</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
                   <MDBNavLink to="#">Badge</MDBNavLink>

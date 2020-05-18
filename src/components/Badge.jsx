@@ -18,7 +18,7 @@ class Badge extends Component {
                 >
                   Badge_
                 </h1>
-                <div className="container m-5">
+                <div className="container">
                   <blockquote className="blockquote">
                     <div className="row">
                       <div className="col-md-12 col-lg-12">

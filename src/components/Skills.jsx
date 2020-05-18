@@ -33,7 +33,7 @@ class Skills extends Component {
                 >
                   Skills_
                 </h1>
-                <div className="container m-5">
+                <div className="container">
                   <blockquote className="blockquote">
                     <div className="row">
                       <div className="col-md-6 col-lg-4">

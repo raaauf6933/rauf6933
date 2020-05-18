@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Menu from "./components/Menu";
 import Header from "./components/Header";
 import Hi from "./components/Hi_";
-import Resume from "./components/Resume";
+import About from "./components/About";
 import Skills from "./components/Skills";
 import Badge from "./components/Badge";
 import Projects from "./components/Projects";
@@ -14,14 +14,14 @@ class App extends Component {
   render() {
     return (
       <React.StrictMode>
-        <Menu/>
+        <Menu />
         <Header />
-        <Hi/>
-        <Resume/>
+        <Hi />
+        <About />
         <Skills/>
-        <Badge/>
+        <Badge />
         <Projects/>
-        
+        <Footer/>
       </React.StrictMode>
     );
   }

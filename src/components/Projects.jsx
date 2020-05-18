@@ -16,7 +16,7 @@ class Projects extends Component {
                 >
                   Projects
                 </h1>
-                <div className="container m-5">
+                <div className="container">
                   <section class="pricing py-5">
                     <div class="container">
                       <div class="row">
