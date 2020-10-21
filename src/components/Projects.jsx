@@ -18,7 +18,7 @@ class Projects extends Component {
                   className="section2__title m-5"
                   style={{ textIndent: "0px", fontWeight: "bolder" }}
                 >
-                  Projects
+                  Projects_
                 </h1>
                 <div className="container">
                   <section class="pricing py-5">
