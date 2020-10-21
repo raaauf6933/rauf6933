@@ -8,6 +8,7 @@ import About from "./components/About";
 import Badge from "./components/Badge";
 import Projects from "./components/Projects";
 import Footer from "./components/footer";
+import Skills from "./components/Skills";
 
 class App extends Component {
   state = {};
@@ -19,6 +20,7 @@ class App extends Component {
         <Hi />
         <About />
         <Badge />
+        <Skills/>
         <Projects />
         <Footer />
       </React.Fragment>

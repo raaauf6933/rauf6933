@@ -250,6 +250,19 @@ hr {
   width: 10rem;
 }
 
+.lang {
+    margin: 20px 20px 10px auto;
+    width: 20%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.data {
+    margin: 10px 20px auto auto;
+    width: 30%;
+    vertical-align: middle;
+}
+
 @media only screen and (max-width: 600px) {
   .blockquote .school {
     padding-bottom: 1rem;

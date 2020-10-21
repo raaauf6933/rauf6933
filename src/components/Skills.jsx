@@ -1,23 +1,23 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 
-
-
 //Skill_Logo
-import Html from "../assets/img/Icons/html.png"
-import Js from "../assets/img/Icons/js.png"
-import Css from "../assets/img/Icons/css.png"
-/*import Bootstrap from "../assets/img/Icons/bootstrap.png"
-import JQuery from "../assets/img/Icons/jquery.png"
-import Php from "../assets/img/Icons/php.png"
-import Python from "../assets/img/Icons/python.png"
-import Reactjs from "../assets/img/Icons/reactjs.png"
-import Node from "../assets/img/Icons/nodejs.png"
-import MongoDB from "../assets/img/Icons/mongodb.png"
-import Sql from "../assets/img/Icons/sql.png"
-import Mssql from "../assets/img/Icons/mssql.png"
-import Network from "../assets/img/Icons/network.png" */
+import Mssql from "../assets/img/Icons/mssql.png";
+import Html from "../assets/img/Icons/html.png";
+import Js from "../assets/img/Icons/js.png";
+import Css from "../assets/img/Icons/css.png";
 
+import Java from "../assets/img/Icons/java.png";
+import Bootstrap from "../assets/img/Icons/bootstrap.png";
+import JQuery from "../assets/img/Icons/jquery.png";
+import Php from "../assets/img/Icons/php.png";
+import Python from "../assets/img/Icons/python.png";
+import Reactjs from "../assets/img/Icons/reactjs.png";
+import Node from "../assets/img/Icons/nodejs.png";
+import MongoDB from "../assets/img/Icons/mongodb.png";
+import Sql from "../assets/img/Icons/sql.png";
+
+import Postgre from "../assets/img/Icons/postgresql.png";
 
 class Skills extends Component {
   state = {};
@@ -32,43 +32,75 @@ class Skills extends Component {
                   className="section2__title m-5"
                   style={{ textIndent: "0px", fontWeight: "bolder" }}
                 >
-                  Proficiencies
+                  Skills
                 </h1>
                 <div className="container">
                   <blockquote className="blockquote">
-                    <div className="row">
-                      <div className="col-md-6 col-lg-4">
-                        <div className="school">
-                          {" "}
-                          <p className="school-name">
-                          <img src={Html} className="img-skill"></img>
-                          
+                    <div className="row" style={{ textAlign: "center" }}>
+                      <div class="col-sm-4">
+                        <div class="service">
+                          <h4>Languages</h4>
+                          <p>
+                            <img className="lang" src={Html} alt="HTML"></img>
+                            <img className="lang" src={Css} alt="CSS"></img>
+                            <img
+                              className="lang"
+                              src={Js}
+                              alt="Javascript"
+                            ></img>
+                            <img
+                              className="lang"
+                              src={Python}
+                              alt="Python"
+                            ></img>
+                            <img className="lang" src={Java} alt="Csharp"></img>
+                            <img className="lang" src={Php} alt="PHP"></img>
                           </p>
-                          {/* <p className="sub-text">- Intermediate Level</p> */}
                         </div>
                       </div>
-                      <div className="col-md-6 col-lg-4">
-                        <div className="school">
-                          {" "}
-                          <p className="school-name">
-                            <img src={Css} className="img-skill"></img>
-                           
+                      <div className="col-sm-4">
+                        <div className="service">
+                          <h4>Frameworks | Libraries</h4>
+                          <p>
+                            <img
+                              className="lang"
+                              src={Bootstrap}
+                              alt="Bootstrap"
+                            ></img>
+                            <img
+                              className="lang"
+                              src={JQuery}
+                              alt="JQuery"
+                            ></img>
+                            <img
+                              className="lang"
+                              src={Reactjs}
+                              alt="React"
+                            ></img>
+                            <img className="lang" src={Node} alt="NodeJS"></img>
                           </p>
-                          {/* <p className="sub-text">- Intermidiate Level</p> */}
                         </div>
                       </div>
-                      <div className="col-md-6 col-lg-4">
-                        <div className="school">
-                          {" "}
-                          <p className="school-name">
-                          <img src={Js} className="img-skill"></img>
-                          
+                      <div className="col-sm-4">
+                        <div className="service">
+                          <h4>Database</h4>
+                          <p>
+                            <img className="data" src={Mssql} alt="Mssql"></img>
+                            <img className="data" src={Sql} alt="Mysql"></img>
+                            <img
+                              className="data"
+                              src={Postgre}
+                              alt="Postgre"
+                            ></img>
+                            <img
+                              className="data"
+                              src={MongoDB}
+                              alt="mongoDB"
+                            ></img>
                           </p>
-                          {/* <p className="sub-text">- Intermediate Level</p> */}
                         </div>
                       </div>
-                 
-                       {/*<div className="col-md-6 col-lg-4">
+                      {/*<div className="col-md-6 col-lg-4">
                         <div className="school">
                           {" "}
                           <p className="school-name">
@@ -157,7 +189,7 @@ class Skills extends Component {
                           </p>
                           <p className="sub-text">- Intermidiate Level</p>
                         </div>
-    </div> */} 
+    </div> */}
                     </div>
                   </blockquote>
                 </div>
