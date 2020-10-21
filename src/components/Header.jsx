@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Me from "../assets/img/meee.jpg";
+import Me from "../assets/img/rauf.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
