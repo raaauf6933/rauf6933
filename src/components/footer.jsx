@@ -10,16 +10,16 @@ class Footer extends Component {
             <div className="col-md-12 ">
               <h1
                 className="section2__title m-5"
-                style={{ textIndent: "0px", fontWeight: "bolder" }}
+                style={{ textIndent: "0px", fontWeight: "bolder", color: "white" }}
               >
-                Get in Touch_
+                Get in Touch
               </h1>
             </div>
           </div>
-          <div className="row contacts">
-            <div class="col-md-5 col-lg-4">
+          <div className="row contacts d-flex justify-content-center">
+            <div class="col-md-12 col-lg-12">
               <div class="contacts__list">
-                <dl class="contact-list">
+                <dl class="contact-list" style={{color: "white"}}>
                   <dt>Phone:</dt>
                   <dd>
                     <a href="tel:639472454073">(63) 947 2454 073</a>
@@ -31,9 +31,9 @@ class Footer extends Component {
                 </dl>
               </div>
             </div>
-            <div class="col-md-7 col-lg-5">
+            <div class="col-md-6 col-lg-6">
           <div class="contacts__form">
-            <p class="contacts__form-title">Or just write me a letter here_</p>
+            <p class="contacts__form" style={{color: "white"}}>Or just write me a letter here_</p>
             <form class="js-form">
               <div class="form-group">
                 <input class="form-field js-field-name" type="text" placeholder="Your name" required=""></input>

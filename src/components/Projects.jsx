@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import Me from "../assets/img/Projects/Inv.PNG";
+import Caeli from "../assets/img/Projects/caeli.PNG";
+import Urban from "../assets/img/Projects/urban.PNG";
+import Fairfields from "../assets/img/Projects/fairfields.PNG";
+
 class Projects extends Component {
   state = {};
   render() {
@@ -23,72 +27,129 @@ class Projects extends Component {
                         <div class="col-lg-4">
                           <div class="card mb-5 mb-lg-0">
                             <div class="card-body">
-                              <h5 class="card-title text-muted text-uppercase text-center">
+                              <h5 class="card-title text-uppercase text-center">
                                 Inventory System
                               </h5>
-                              <img src={Me} className="rounded img-fluid"></img>
+                              <img
+                                src={Me}
+                                className="rounded img-fluid"
+                                alt="inventory system"
+                              ></img>
                               <hr></hr>
-                              <ul class="fa-ul">
-                                <li>
-                                  <span class="fa-li">
-                                    <i class="fas fa-check"></i>
-                                  </span>
-                                  Single User
-                                </li>
-                                <li>
-                                  <span class="fa-li">
-                                    <i class="fas fa-check"></i>
-                                  </span>
-                                  5GB Storage
-                                </li>
-                                <li>
-                                  <span class="fa-li">
-                                    <i class="fas fa-check"></i>
-                                  </span>
-                                  Unlimited Public Projects
-                                </li>
-                                <li>
-                                  <span class="fa-li">
-                                    <i class="fas fa-check"></i>
-                                  </span>
-                                  Community Access
-                                </li>
-                                <li class="text-muted">
-                                  <span class="fa-li">
-                                    <i class="fas fa-times"></i>
-                                  </span>
-                                  Unlimited Private Projects
-                                </li>
-                                <li class="text-muted">
-                                  <span class="fa-li">
-                                    <i class="fas fa-times"></i>
-                                  </span>
-                                  Dedicated Phone Support
-                                </li>
-                                <li class="text-muted">
-                                  <span class="fa-li">
-                                    <i class="fas fa-times"></i>
-                                  </span>
-                                  Free Subdomain
-                                </li>
-                                <li class="text-muted">
-                                  <span class="fa-li">
-                                    <i class="fas fa-times"></i>
-                                  </span>
-                                  Monthly Status Reports
-                                </li>
+                              <p>
+                                Dynamic Inventory System with tracking and QR
+                                Code features
+                              </p>
+                              <h5>Tool used:</h5>
+                              <ul className="list-group">
+                                <li className="list-group-item">HTML & CSS</li>
+                                <li className="list-group-item">Bootstrap</li>
+                                <li className="list-group-item">JQuery</li>
+                                <li className="list-group-item">PHP</li>
                               </ul>
                               <a
-                                href="#"
-                                class="btn btn-block btn-dark text-uppercase"
+                                class="btn btn-block btn-secondary text-uppercase"
+                                href="/#"
                               >
                                 View on GitHub
                               </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                              <h5 class="card-title  text-uppercase text-center">
+                                Caeli Sea Resort Hotel Reservation and Billing
+                                System
+                              </h5>
+                              <img
+                                src={Caeli}
+                                className="rounded img-fluid"
+                                alt="Hotel and reservation billing system"
+                              ></img>
+                              <hr></hr>
+                              <p>
+                                Dynamic versatile features required to run
+                                hotels guest house business. The system has
+                                facility to generate report for analyzes your
+                                booking, checking and checkout status.
+                              </p>
+                              <h5>Tool used:</h5>
+                              <ul className="list-group">
+                                <li className="list-group-item">HTML & CSS</li>
+                                <li className="list-group-item">Bootstrap</li>
+                                <li className="list-group-item">JQuery</li>
+                                <li className="list-group-item">PHP</li>
+                              </ul>
                               <a
-                                href="#"
-                                class="btn btn-block btn-success text-uppercase"
+                                class="btn btn-block btn-secondary text-uppercase"
+                                href="/#"
                               >
-                                View Live Demo
+                                View on GitHub
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                              <h5 class="card-title  text-uppercase text-center">
+                                Dictionary of UrbanDictionary
+                              </h5>
+                              <img
+                                src={Urban}
+                                className="rounded img-fluid"
+                                alt="Urban Dictionary"
+                              ></img>
+                              <hr></hr>
+                              <p>
+                                Dynamic Inventory System with tracking and QR
+                                Code features
+                              </p>
+                              <h5>Tool used:</h5>
+                              <ul className="list-group">
+                                <li className="list-group-item">React JS</li>
+                                <li className="list-group-item">REST API</li>
+                              </ul>
+                              <a
+                                class="btn btn-block btn-secondary text-uppercase"
+                                href="/#"
+                              >
+                                View on GitHub
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                              <h5 class="card-title  text-uppercase text-center">
+                                Fairfields Resort Hotel Reservation and Billing
+                                System
+                              </h5>
+                              <img
+                                src={Fairfields}
+                                className="rounded img-fluid"
+                                alt="Fairfields Resort"
+                              ></img>
+                              <hr></hr>
+                              <p>
+                                Dynamic Inventory System with tracking and QR
+                                Code features
+                              </p>
+                              <h5>Tool used:</h5>
+                              <ul className="list-group">
+                                <li className="list-group-item">HTML & CSS</li>
+                                <li className="list-group-item">Bootstrap</li>
+                                <li className="list-group-item">JQuery</li>
+                                <li className="list-group-item">PHP</li>
+                              </ul>
+                              <a
+                                class="btn btn-block btn-secondary text-uppercase"
+                                href="/#"
+                              >
+                                View on GitHub
                               </a>
                             </div>
                           </div>

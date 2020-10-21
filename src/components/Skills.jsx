@@ -6,7 +6,8 @@ import Fade from "react-reveal/Fade";
 //Skill_Logo
 import Html from "../assets/img/Icons/html.png"
 import Js from "../assets/img/Icons/js.png"
-import Bootstrap from "../assets/img/Icons/bootstrap.png"
+import Css from "../assets/img/Icons/css.png"
+/*import Bootstrap from "../assets/img/Icons/bootstrap.png"
 import JQuery from "../assets/img/Icons/jquery.png"
 import Php from "../assets/img/Icons/php.png"
 import Python from "../assets/img/Icons/python.png"
@@ -15,7 +16,7 @@ import Node from "../assets/img/Icons/nodejs.png"
 import MongoDB from "../assets/img/Icons/mongodb.png"
 import Sql from "../assets/img/Icons/sql.png"
 import Mssql from "../assets/img/Icons/mssql.png"
-import Network from "../assets/img/Icons/network.png"
+import Network from "../assets/img/Icons/network.png" */
 
 
 class Skills extends Component {
@@ -31,7 +32,7 @@ class Skills extends Component {
                   className="section2__title m-5"
                   style={{ textIndent: "0px", fontWeight: "bolder" }}
                 >
-                  Skills_
+                  Proficiencies
                 </h1>
                 <div className="container">
                   <blockquote className="blockquote">
@@ -41,9 +42,19 @@ class Skills extends Component {
                           {" "}
                           <p className="school-name">
                           <img src={Html} className="img-skill"></img>
-                           HTML with CSS
+                          
                           </p>
-                          <p className="sub-text">- Intermediate Level</p>
+                          {/* <p className="sub-text">- Intermediate Level</p> */}
+                        </div>
+                      </div>
+                      <div className="col-md-6 col-lg-4">
+                        <div className="school">
+                          {" "}
+                          <p className="school-name">
+                            <img src={Css} className="img-skill"></img>
+                           
+                          </p>
+                          {/* <p className="sub-text">- Intermidiate Level</p> */}
                         </div>
                       </div>
                       <div className="col-md-6 col-lg-4">
@@ -51,22 +62,13 @@ class Skills extends Component {
                           {" "}
                           <p className="school-name">
                           <img src={Js} className="img-skill"></img>
-                           JavaScript
+                          
                           </p>
-                          <p className="sub-text">- Intermediate Level</p>
+                          {/* <p className="sub-text">- Intermediate Level</p> */}
                         </div>
                       </div>
-                      <div className="col-md-6 col-lg-4">
-                        <div className="school">
-                          {" "}
-                          <p className="school-name">
-                          <img src={Bootstrap} className="img-skill"></img>
-                            Bootstrap
-                          </p>
-                          <p className="sub-text">- Intermidiate Level</p>
-                        </div>
-                      </div>
-                      <div className="col-md-6 col-lg-4">
+                 
+                       {/*<div className="col-md-6 col-lg-4">
                         <div className="school">
                           {" "}
                           <p className="school-name">
@@ -155,7 +157,7 @@ class Skills extends Component {
                           </p>
                           <p className="sub-text">- Intermidiate Level</p>
                         </div>
-                      </div>
+    </div> */} 
                     </div>
                   </blockquote>
                 </div>

@@ -7,7 +7,7 @@ class Hi extends Component {
     return (
       <div>
       
-          <section id="#hello" className="container section1">
+          <section name="hi" className="container section1">
             <div className="row">
               <div className="col-md-12 ">
                 <h1
@@ -18,13 +18,13 @@ class Hi extends Component {
                 </h1>
                 <div className="container">
                   <p className="section__description">
-                    I am Junior Software/Web developer who is able to build 
-                    web applications from concept,
-                    navigation, layout. Skilled at writing well-designed
-                    testable and efficient code using current best practices in Web development. 
+                  I am an aspiring Software developer who is able to build applications 
+                  on both web and mobile application from concept, navigation, layout. 
+                  Skilled at writing well-designed testable and efficient code 
+                  using current best practices in application development. 
                   </p>
 
-                  <a href="" className="section_btn site-btn">
+                  <a className="section_btn site-btn" href="/#">
                    Download CV
                   </a>
                 </div>

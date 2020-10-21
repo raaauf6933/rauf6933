@@ -25,8 +25,17 @@ class Badge extends Component {
                         <div className="school">
                           {" "}
                           <p className="school-name">
-                            <img src={Mta} className="img-badge"></img>{" "}
-                            <a href="https://www.youracclaim.com/badges/a3e2dcdd-9e75-4f22-9b21-fc8789e775aa/linked_in_profile" target="_blank" style={{color: "black"}}>
+                            <img
+                              src={Mta}
+                              className="img-badge"
+                              alt="MTA"
+                            ></img>{" "}
+                            <a
+                              href="https://www.youracclaim.com/badges/a3e2dcdd-9e75-4f22-9b21-fc8789e775aa/linked_in_profile"
+                              target="_blank"
+                              style={{ color: "black" }}
+                              rel="noopener noreferrer"
+                            >
                               {" "}
                               MTA: Introduction to Programming Using JavaScript
                               - Certified 2020

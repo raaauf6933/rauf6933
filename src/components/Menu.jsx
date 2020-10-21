@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
+import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 class Menu extends Component {
@@ -12,6 +12,8 @@ class Menu extends Component {
     this.onClick = this.onClick.bind(this);
   }
 
+
+
   onClick() {
     this.setState({
       collapse: !this.state.collapse,
@@ -21,37 +23,42 @@ class Menu extends Component {
   render() {
     return (
       <div>
-      <header>
-        <Router>
-          <MDBNavbar color="bg-light"  fixed="top" dark expand="md" scrolling transparent>
-RAAAUF_6933
-            {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
-            <MDBCollapse isOpen={this.state.collapse} navbar>
-              <MDBNavbarNav right>
-                <MDBNavItem active>
-                  <MDBNavLink to="#hello">Hi</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
+        <header>
+          <Router>
+            <MDBNavbar
+              color="bg-light"
+              fixed="top"
+              dark
+              expand="md"
+              scrolling
+              transparent
+            >
+              {!this.state.isWideEnough && (
+                <MDBNavbarToggler onClick={this.onClick} />
+              )}
+              <MDBCollapse isOpen={this.state.collapse} navbar>
+                <MDBNavbarNav center>
+                  <MDBNavItem>
+                    <MDBNavLink to="#">Hi</MDBNavLink>
+                  </MDBNavItem>
+                  {/*<MDBNavItem>
                   <MDBNavLink to="#">About me</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink to="#">Badge</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink to="#hello">Project</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink to="#hello">Contact</MDBNavLink>
-                </MDBNavItem>
-                
-              </MDBNavbarNav>
-            </MDBCollapse>
-          </MDBNavbar>
-        </Router>
-
-      </header>
-
-    </div>
+                </MDBNavItem> */}
+                  <MDBNavItem>
+                    <MDBNavLink to="#">Badge</MDBNavLink>
+                  </MDBNavItem>
+                  <MDBNavItem>
+                    <MDBNavLink to="#Project">Project</MDBNavLink>
+                  </MDBNavItem>
+                  <MDBNavItem>
+                    <MDBNavLink to="#getintouch">Get in Touch</MDBNavLink>
+                  </MDBNavItem>
+                </MDBNavbarNav>
+              </MDBCollapse>
+            </MDBNavbar>
+          </Router>
+        </header>
+      </div>
     );
   }
 }
